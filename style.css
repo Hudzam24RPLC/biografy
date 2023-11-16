@@ -1,0 +1,352 @@
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+/* Gaya dasar halaman */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Gaya sidebar */
+.sidebar {
+    width: 95px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+/* Gaya garis vertikal */
+.vertical-line {
+    width: 3px;
+    height: 90%;
+    background-color: black; /* Warna garis vertikal hitam */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 95px;
+    margin: 50px 0 ;
+}
+
+/* Gaya ikon di dalam sidebar */
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 30px 0; /* Jarak antara ikon (20px atas dan bawah) */
+    text-align: center;
+}
+
+.icon img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.content {
+    flex: 1;
+    padding: 20px; /* Padding di dalam konten */
+}
+h3{
+    text-align: center;
+    font-family: Jomhuria;
+
+}
+*{
+    box-sizing: border-box;
+
+
+}
+.content .satu{
+    width: 100%;
+    height: 918px; 
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    background: #EFEFEF;
+    margin-left: 79px;
+    margin-top: 80px;
+
+}
+
+.judul{
+    padding-top: 5px;
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 40%;
+    border-radius: 15px;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    background: linear-gradient(180deg, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 68.75%);
+    width: 214px;
+    height: 63px;
+    flex-shrink: 0; 
+    
+}
+
+.judul h1{
+    margin-top: 5px;
+    color: #000;
+    font-family: Jomhuria;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.aku{
+    text-align: center; 
+    flex-shrink: 0;
+    color: #000;  
+    font-style: normal;
+    font-weight: 500;
+    width: 771px;
+    height: 446px;
+    flex-shrink: 0;
+    background: #CBCBCB;
+    line-height: normal;
+}
+.gua{
+    width: 380px;
+height: 284px;
+flex-shrink: 0;
+}
+.aku .gua p{
+    
+flex-shrink: 0;
+    flex-shrink: 0; 
+    color: #000;
+    text-align: center;
+    font-family: Kaisei Decol;
+    font-size: 23px;
+    margin-left: 80px;
+    padding-top: 60px;
+}
+
+.fotoku{
+    margin-left: 350px;
+    margin-top: -180px;
+    width: 224px;
+    height: 174.286px;
+    flex-shrink: 0;
+    
+}
+.alamat{
+    width: 315px;
+    height: 408px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    margin-top: -60px;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: px;
+    
+}
+iframe{
+    width: 275px;
+    height: 176px;
+}
+.family{
+    width: 435px;
+    height: 408px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    margin-top: 20px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.family p{
+    margin-top: 10%;
+    text-align: center;
+}
+.family img{
+    width: 99%;
+    height: 176px;
+}
+
+.alamat p{
+    margin-top: 25%;
+}
+.pendidikan{
+    width: 600px;
+height: 872px;
+flex-shrink: 0;
+background: #4A4848;
+text-align: center;
+margin-top: -445px;
+margin-left: 795px;
+color: white;
+padding-top: 20px;
+}
+.pendidikan .sd{
+    margin-top: 30px;
+}
+.exp{
+    width: 100%;
+    height: 499px; 
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    background: #EFEFEF;
+    margin-left: 79px;
+    margin-top: 80px;
+    color: white;
+}
+
+.exp div{
+    width: 1308px;
+height: 366px;
+flex-shrink: 0;
+background: #494848;
+margin-top: 60px;
+padding-right: 85px;
+}
+.exp p{
+    width: 414px;
+height: 239px;
+flex-shrink: 0;
+text-align: center;
+float: right;
+font-weight: 500;
+font-family: Kaisei Decol;
+font-size: 22px;
+float: left;
+margin-left: 155px;
+margin-top: 20px;
+
+}
+.exp h3{
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 80px;
+    float: left;
+}
+.exp img{
+    width: 89px;
+height: 100px;
+flex-shrink: 0;
+background: #5F5959;
+float: left;
+margin-top: 84px;
+margin-left: 255px;
+border-radius: 40px ;
+}
+.ach{
+    width: 100%;
+    height: 499px; 
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    background: #EFEFEF;
+    margin-left: 79px;
+    margin-top: 80px;
+}
+
+.ach div{
+    width: 1300px;
+height: 366px;
+flex-shrink: 0;
+background: #CBCBCB;
+margin-top: 60px;
+padding-right: 85px;
+float: right;
+
+}
+.ach p{
+    width: 414px;
+height: 239px;
+flex-shrink: 0;
+text-align: center;
+float: right;
+font-weight: 500;
+font-family: Kaisei Decol;
+font-size: 22px;
+float: right;
+margin-right: 140px;
+margin-top: 20px;
+
+}
+.ach h3{
+    margin-top: 36px;
+    text-align: center;
+    margin-right: 290px;
+    margin-top: 60px;
+    float: right;
+}
+.ach img{
+    width: 89px;
+height: 100px;
+flex-shrink: 0;
+background: #5F5959;
+float: right;
+margin-top: 84px;
+margin-right: 180px;
+border-radius: 40px;
+}
+.skill{
+    width: 100%;
+    height: 499px; 
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    background: #EFEFEF;
+    margin-left: 79px;
+    margin-top: 80px;
+    color: white;
+}
+
+.skill div{
+    width: 1300px;
+height: 366px;
+flex-shrink: 0;
+background: #494848;
+margin-top: 60px;
+padding-right: 85px;
+}
+.skill p{
+    width: 414px;
+height: 239px;
+flex-shrink: 0;
+text-align: center;
+float: right;
+font-weight: 500;
+font-family: Kaisei Decol;
+font-size: 22px;
+float: left;
+margin-left: 100px;
+margin-top: 20px;
+
+}
+.skill h3{
+    margin-top: 80px;
+    text-align: center;
+    margin-left: 250px;
+    float: left;
+}
+.skill img{
+    width: 89px;
+height: 100px;
+flex-shrink: 0;
+background: #5F5959;
+float: left;
+margin-top: 84px;
+margin-left: 255px;
+border-radius: 40px;
+}
+.exp img, .ach img, .skill img{
+    width: 283px;
+height: 198px;
+flex-shrink: 0;
+}
